@@ -9,7 +9,7 @@ void Print(int,int);
 int main(int argc, char const *argv[])
 {
 	fstream inf;
-	inf.open("Dimensions.txt",ios::in);
+	inf.open("dimensions.txt",ios::in);
 	inf>>n>>p[0];
 	int i,col,row;
 	for(i=1;i<n;i++)
