@@ -9,7 +9,7 @@ void Write(int);
 int main(int argc, char const *argv[])
 {
 	fstream inf;
-	inf.open("Graph.txt",ios::in);
+	inf.open("graph.txt",ios::in);
 	inf>>n;
 	for(int i=1;i<=n;i++,x[i]=0)
 		for(int j=1;j<=n;j++)
